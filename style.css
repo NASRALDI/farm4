@@ -1,0 +1,91 @@
+body{
+    #head {
+        margin: 0;
+        content: center;
+        text-align: center;
+        height:90px ;
+       
+
+    }
+    #list{
+        list-style-type:none ;
+        background-color: aqua;
+        letter-spacing: 3px;
+        
+        
+    }
+    .elem{
+        position: relative;
+        margin-left: 0;
+        display: inline-block;
+        padding: 30px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 3px;
+        font-size: 25px;
+    }
+    
+    .elem:hover{
+        background-color: antiquewhite;
+        cursor: pointer;
+    }
+
+    .para{
+        border: 1px dotted rgb(231, 153, 153) ;
+        box-sizing: border-box;
+
+        border-radius: 7dvb;
+        text-align:center; 
+          padding: 3cm;
+           font-family: 'Courier New', Courier, monospace; 
+           font-size: large;
+            background-color: rgb(255, 200,2000);
+    }
+    .ftr{
+        background-image: url("https://images.unsplash.com/photo-1582080018280-6814c0e12a6a?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        opacity: 0.6;
+        position: relative;
+        background-color:red;
+        height: 600px;
+        margin: 30px;
+        z-index: 1;
+    }
+    
+#btn{ 
+   position: absolute;
+   top: 80%;
+   right: 40%;
+   
+    background-color: transparent;
+    border-style: 2px solid black;
+    padding: 30px;
+    margin: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: serif;
+    font-size: large;
+    border-radius: 12%;
+    z-index: 2;
+
+
+}
+#btn:hover{
+
+   opacity: 0.3;
+    color :red;
+}
+#btn:active{
+    background-color: black;
+    color: blue;
+}
+/*#btn::first-letter{
+    color: blueviolet;
+    font-size: 200%;
+}*/
+.foot{
+    height: 800px;
+}
+}
